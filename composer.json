@@ -1,0 +1,27 @@
+{
+    "name": "zhenxun/sloth_slim3_framework",
+    "authors": [
+        {
+            "name": "zhenxun",
+            "email": "zhenxun_9119@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"slim/slim": "^3.0",
+        "slim/twig-view": "^2.2",
+        "php-di/slim-bridge": "^1.0",
+        "illuminate/database": "^5.5",
+        "respect/validation": "^1.1",
+        "slim/csrf": "^0.8.1",
+        "symfony/var-dumper": "^3.3",
+        "robmorgan/phinx": "^0.9.1",
+        "vlucas/phpdotenv": "^2.4",
+        "slim/flash": "^0.2.0"
+    },
+    "autoload":{
+    	"psr-4":{
+    		"Sloth\\":"app"
+    	}
+    }
+}
